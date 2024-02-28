@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Shree Mahaveer Seba Sangha</title>
+    <link rel="stylesheet" href="styleg.css">
+</head>
+<body>
+
+    <header>
+        <h1>Shree Mahaveer Seba Sangha</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="donation.html">Donate</a></li>
+                <li class="active"><a href="gallry.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="gallery">
+        <div class="image" onclick="openLightbox('front.jpg')">
+            <img src="front.jpg" alt="Photo Gallery">
+        </div>
+        <div class="image" onclick="openLightbox('1.jpg')">
+            <img src="1.jpg" alt="Video Gallery">
+        </div>
+        <div class="image" onclick="openLightbox('10.jpg')">
+            <img src="10.jpg" alt="Video Gallery">
+        </div>
+        <div class="image" onclick="openLightbox('4.jpg')">
+            <img src="4.jpg" alt="Video Gallery">
+        </div>
+        
+        <div class="image" onclick="openLightbox('12.jpg')">
+            <img src="12.jpg" alt="Video Gallery">
+        </div>
+        <div class="image" onclick="openLightbox('6.jpg')">
+            <img src="6.jpg" alt="Video Gallery">
+        </div>
+        <div class="image" onclick="openLightbox('2.jpg')">
+            <img src="2.jpg" alt="Video Gallery">
+        </div>
+        <div class="image" onclick="openLightbox('all.jpg')">
+            <img src="all.jpg" alt="Video Gallery">
+        </div>
+        <div class="image" onclick="openLightbox('3.jpg')">
+            <img src="3.jpg" alt="Video Gallery">
+        </div>
+        <div class="image" onclick="openLightbox('5.jpg')">
+            <img src="5.jpg" alt="Video Gallery">
+        </div>
+        <div class="image" onclick="openLightbox('7.jpg')">
+            <img src="7.jpg" alt="Video Gallery">
+        </div>
+        <div class="image" onclick="openLightbox('8.jpg')">
+            <img src="8.jpg" alt="Video Gallery">
+        </div>
+        <div class="image" onclick="openLightbox('9.jpg')">
+            <img src="9.jpg" alt="Video Gallery">
+        </div>
+        <div class="image" onclick="openLightbox('11.jpg')">
+            <img src="11.jpg" alt="Video Gallery">
+        </div>
+         
+        <!-- Add more images as needed -->
+    </section>
+
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-image" src="" alt="Lightbox Image">
+    </div>
+
+    <script src="scriptg.js"></script>
+</body>
+</html>
